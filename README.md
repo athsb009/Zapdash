@@ -31,3 +31,4 @@ ZapDash is a workflow automation platform that enables users to create custom wo
 - **Authentication**: NextAuth
 
 ## Project Structure
+├── README.md # This README file ├── frontend/ # Contains the frontend code (React/Next.js) ├── hooks/ # Contains custom hooks and utilities ├── primary-backend/ # Core backend code (Node.js, Express) ├── processor/ # Middleware or backend processing tasks └── worker/ # Handles background processing or task scheduling
