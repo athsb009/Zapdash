@@ -16,7 +16,7 @@
 - [License](#license)
 
 ## Project Overview
-ZapDash is a workflow automation platform that enables users to create custom workflows between applications. Users can define dynamic triggers and actions to automate tasks, increasing efficiency and productivity. ZapDash integrates with multiple third-party services, making task automation seamless and intuitive.
+ZapDash is a workflow automation platform that enables users to create custom workflows between applications. Users can define dynamic triggers and actions to automate tasks, increasing efficiency and productivity. ZapDash integrates with Solana and Gmail (as of Now), making task automation seamless and intuitive.
 
 ## Features
 - **User Authentication**: OAuth 2.0 and JWT-based authentication for secure access.
