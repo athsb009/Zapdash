@@ -34,10 +34,10 @@ ZapDash is a workflow automation platform that enables users to create custom wo
 
 ### Directory Descriptions:
 - **frontend/**: This folder contains the frontend code, built using React.js and Next.js. It handles the user interface and client-side logic for creating and managing workflows.
-- **hooks/**: This folder stores custom React hooks, which might be shared across different components in the frontend or between frontend and backend logic for utilities, API calls, or authentication.
+- **hooks/**: This hook triggers the event that sends solana token as a reward and then triggers the gmail to send notification to the user.
 - **primary-backend/**: The main backend server, built using Node.js, Express.js, and TypeScript. It manages API requests, user authentication, and workflow logic. It connects to the PostgreSQL database and coordinates workflow execution.
-- **processor/**: This component is likely responsible for processing workflows or middleware logic. It could include operations like validating workflows, interacting with third-party APIs, or managing triggers and actions.
-- **worker/**: This folder contains the background processing logic, possibly involving Kafka for message queueing and asynchronous task processing. It handles tasks like sending notifications, scheduling jobs, or processing workflows that run in the background.
+- **processor/**: This component is responsible for processing workflows or middleware logic. It includes operations like validating workflows, interacting with third-party APIs, or managing triggers and actions.
+- **worker/**: This folder contains the background processing logic, involving Kafka for message queueing and asynchronous task processing. It handles tasks like sending notifications, scheduling jobs, and processing workflows that run in the background.
 
 ## Installation
 To set up the project locally, follow these steps:
@@ -82,18 +82,6 @@ Once the development servers are running:
 2. Sign up or log in.
 3. Create custom workflows by selecting triggers and actions from the dashboard.
 4. Connect third-party apps to automate tasks effortlessly.
-
-## API Endpoints
-### Workflow Endpoints
-- `GET /api/v1/workflows`: Fetch all workflows
-- `POST /api/v1/workflows`: Create a new workflow
-- `GET /api/v1/workflows/{id}`: Fetch workflow by ID
-- `PUT /api/v1/workflows/{id}`: Update workflow by ID
-- `DELETE /api/v1/workflows/{id}`: Delete workflow by ID
-
-### Authentication Endpoints
-- `POST /api/v1/auth/register`: Register a new user
-- `POST /api/v1/auth/login`: Login an existing user
 
 ## Contributing
 We welcome contributions! To contribute:
